@@ -81,4 +81,10 @@ class TaskController extends Controller
 
         return redirect('/tasks');
     }
+
+
+    public function goto(Request $request, Task $task)
+    {
+        
+    }
 }
