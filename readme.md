@@ -1,5 +1,12 @@
 # Laravel Quickstart - Intermediate - Task List With Authentication
 
+
+this is from the laravel tutorial
+
+This Application can be used to store the links of The Videos You wish to download in future
+
+
+
 install php7.0 make sure you have every extensions as in laravel docs
 
 
