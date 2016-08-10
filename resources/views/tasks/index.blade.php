@@ -61,7 +61,7 @@
                                 @foreach ($tasks as $task)
                                     <tr>
                                         <td class="table-text"><div>{{ $task->name }}</div></td>
-                                        <td class="table-text"><div>{{ Html::link($task->link, null)}}</a></div></td>
+                                        <td class="table-text"><div>{{ Html::link($task->link, 'link')}}</a></div></td>
 
                                         <!-- Task Delete Button -->
                                         <td>
