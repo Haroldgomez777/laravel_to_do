@@ -62,7 +62,7 @@
                                     <tr>
                                         <td class="table-text"><div>{{ $task->name }}</div></td>
                                     
-                                        <!-- <a>{{ Html::link($task->link, 'link')}}</a>  -->
+                                        <td><a>{{ Html::link($task->link, 'link')}}</a></td>
                                             
                                     <td>
                                         <textarea class="form-control"><?php echo $task->link ?></textarea>
