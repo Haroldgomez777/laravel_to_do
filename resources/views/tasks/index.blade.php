@@ -61,8 +61,19 @@
                                 @foreach ($tasks as $task)
                                     <tr>
                                         <td class="table-text"><div>{{ $task->name }}</div></td>
-                                        <td class="table-text"><div>{{ Html::link($task->link, 'link')}}</a></div></td>
-
+                                    
+                                        <!-- <a>{{ Html::link($task->link, 'link')}}</a>  -->
+                                            
+                                    <td>
+                                        <textarea class="form-control"><?php echo $task->link ?></textarea>
+                                    </td>
+                                    <td>    
+                                        <button class="btn btn-danger" onclick="copyToClipboard(this)">Copy</button>
+                                    </td>
+                                        
+                               
+                                
+                            
                                         <!-- Task Delete Button -->
                                         <td>
                                             <form action="{{url('task/' . $task->id)}}" method="POST">
@@ -80,6 +91,7 @@
                         </table>
                     </div>
                 </div>
+                 <div><h1>Total Links {{count($tasks)}}</h1></div>
             @endif
         </div>
     </div>
