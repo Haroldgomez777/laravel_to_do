@@ -3,7 +3,8 @@
 
 this is from the laravel tutorial
 
-This Application can be used to store the links of The Videos You wish to download in future
+This Application can be used to store links
+You wish to download in future
 
 
 
